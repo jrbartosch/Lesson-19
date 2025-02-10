@@ -1,6 +1,6 @@
 import random
+print ('Welcome to Rock Paper Scissors!')
 while True:
-    print ('Welcome to Rock Paper Scissors!')
     choice = input('Please Enter Your Choice: ')
     possible_choices = ['rock', 'paper', 'scissors']
     computer_choice = random.choice(possible_choices)
