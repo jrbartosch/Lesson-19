@@ -26,5 +26,5 @@ while True:
     else:
         print ('Invalid Input!')
     play_again = input('Do You Want to Play Again? Yes/No: ')
-    if play_again != 'Yes':
+    if play_again.capitalize != 'Yes':
         break
